@@ -1,0 +1,42 @@
+body {
+    width: 30%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+form {
+    border: 1px solid black;
+    overflow: hidden;
+    padding: 10px;
+}
+input, textarea {
+    width: 100%;
+}
+.summary-container {
+    background-color: lightgray;
+    padding: 20px;
+}
+.book-entry {
+    border: 1px solid black;
+    margin: 10px 0px 10px 0px;
+    padding: 5px;
+    background-color: white;
+}
+.new-book {
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    background-color: green;
+    color: white;
+    padding: 20px;
+} a:link {
+    text-decoration: none;
+}
+button {
+    width: 103%;
+    background-color: green;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="../public/styles.css">
+    <title>Book Wishlist</title>
+</head>
+<body>
+    <form action="/submit-book" method="post">
+        <h1>Book Wishlist</h1>
+        <hr>
+        <h2>Book title</h2>
+        <input type="text" name="title">
+        <h2>Comments</h2>
+        <textarea name="comments"></textarea>
+        <h2>Rating out of 5 stars</h2>
+        <input type="number" min="0" max="5" name="rating">
+        <button id="submit-form">Submit Book</button>
+    </form>
+</body>
+</html>

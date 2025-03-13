@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="../public/styles.css">
+    <title>Summary</title>
+</head>
+<body>
+    <div class="summary-container">
+        <h1>Book Wishlist:</h1>
+        <% for (let i=0; i<bookWishlist.length; i++) { %>
+        <div class="book-entry">
+            <h2><%=[bookWishlist[i].title] %></h2>
+            <hr>
+            <p><%= [bookWishlist[i].comments] %></p>
+            <h2><%= [bookWishlist[i].rating] %>/5 ☆☆☆☆☆</h2>
+        </div>
+        <% } %>
+        <a href="/"><div class="new-book">Enter new Book</div></a>
+    </div>
+</body>
+</html>
